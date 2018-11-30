@@ -1,7 +1,7 @@
 # Trumail
 
 [![CircleCI](https://circleci.com/gh/sdwolfe32/trumail.svg?style=svg)](https://circleci.com/gh/sdwolfe32/trumail)
-[![GoDoc](https://godoc.org/github.com/sdwolfe32/trumail/verifier?status.svg)](https://godoc.org/github.com/sdwolfe32/trumail/verifier)
+[![GoDoc](https://godoc.org/github.com/sdwolfe32/trumail/verifier?status.svg)](https://godoc.org/github.com/golangrakesh/trumail/verifier)
 
 Trumail is a free and open source email validation/verification system. It is available in three forms, the Golang client library `verifier` for use in your own Go projects, a public API endpoint (more info: https://trumail.io), and a public Docker image on DockerHub (see: https://hub.docker.com/r/sdwolfe32/trumail/). 
 
@@ -22,7 +22,7 @@ package main
 import (
 	"log"
 
-	trumail "github.com/sdwolfe32/trumail/verifier"
+	trumail "github.com/golangrakesh/trumail/verifier"
 )
 
 func main() {
@@ -36,8 +36,8 @@ func main() {
 ## Running with Go
 
 ```
-go get -d github.com/sdwolfe32/trumail/...
-go install github.com/sdwolfe32/trumail
+go get -d github.com/golangrakesh/trumail/...
+go install github.com/golangrakesh/trumail
 trumail
 ```
 
